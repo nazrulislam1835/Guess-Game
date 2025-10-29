@@ -24,9 +24,33 @@ Player 1 chooses a number (0-10) and Player 2 has 5 chances to guess it. The gam
 ## 📂 File Structure
 
 guess-game/
+
 │
+
 ├─ index.html # Main HTML file
+
 ├─ css/
+
 │ └─ style.css # Styling for the game
+
 └─ js/
+
 └─ script.js # Game logic
+
+
+---
+
+## 🎮 How to Play
+
+1. Player 1 enters a number (0-10).  
+2. Player 2 guesses the number with 5 attempts.  
+3. The game shows the winner:  
+   - If Player 2 guesses correctly → Player 2 wins.  
+   - If Player 2 fails in 5 guesses → Player 1 wins.  
+4. Refresh the page to play again.
+
+---
+
+```
+git clone https://github.com/nazrulislam1835/Guess-Game
+```
