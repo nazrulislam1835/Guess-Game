@@ -52,5 +52,7 @@ guess-game/
 ---
 
 ```
+bash
 git clone https://github.com/nazrulislam1835/Guess-Game
 ```
+
