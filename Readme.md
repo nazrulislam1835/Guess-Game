@@ -51,8 +51,11 @@ guess-game/
 
 ---
 
+## Installation 💻
+
+Clone the repository to your local machine:
+
 ```bash
 git clone https://github.com/nazrulislam1835/Guess-Game
 cd Guess-Game
-cd index.html
 ```
