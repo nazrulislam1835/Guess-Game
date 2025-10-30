@@ -1,72 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 body {
-  background: linear-gradient(135deg, #4158D0, #C850C0, #FFCC70);
-  height: 100vh;
-  text-align: center;
-  font-family: "Playfair Display", serif;
+	background: linear-gradient(135deg, #4158d0, #c850c0, #ffcc70);
+	height: 100vh;
+	text-align: center;
+	font-family: "Playfair Display", serif;
 }
 
 .user-box {
-  width: 400px;
-  margin: 50px auto;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 15px;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+	width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 15px;
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	text-align: center;
 }
 
 .user-box h2 {
-  color: #ffffff;
-  margin-bottom: 15px;
+	color: #ffffff;
+	margin-bottom: 15px;
 }
 
 .mymargin {
-  padding: 8px;
-  border-radius: 100px;
-  background: rgba(255, 255, 255, 0.25);
+	margin: 0 auto;
+	width: 370px;
+	padding: 8px 0px;
+	border-radius: 100px;
+	background: rgba(255, 255, 255, 0.25);
 }
 
 .mymargin input {
-  height: 35px;
-  width: 230px;
-  background: transparent;
-  border: none;
-  color: white;
-  padding-left: 10px;
-  outline: none;
-  appearance: textfield;
+	height: 35px;
+	width: 230px;
+	background: transparent;
+	border: none;
+	color: white;
+	outline: none;
+	appearance: textfield;
 }
 
 .mymargin input::placeholder {
-  color: #e4e4e4;
+	color: #e4e4e4;
 }
 
 .mymargin button {
-  height: 35px;
-  width: 100px;
-  background: #ffffff;
-  border: none;
-  color: #333;
-  border-radius: 100px;
-  font-weight: bold;
-  cursor: pointer;
+	height: 35px;
+	width: 100px;
+	background: #ffffff;
+	border: none;
+	color: #333;
+	border-radius: 100px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: -10px;
 }
 
 .playerTwoInput,
 .winner_box {
-  display: none;
+	display: none;
+}
+
+.winner_box h1 {
+	color: yellow;
+}
+
+.winner_box button {
+	height: 35px;
+	width: 100px;
+	background: #ffffff;
+	border: none;
+	color: #333;
+	border-radius: 100px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 20px;
+	animation: all linear 0.4s;
+}
+
+.winner_box button:hover {
+	background: #333;
+	color: #ffffff;
 }
 
 .error {
-  color: yellow;
-  font-weight: bold;
-  margin-bottom: 10px;
+	color: yellow;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
